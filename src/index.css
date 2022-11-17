@@ -75,6 +75,11 @@ section>h2{
     transition: var(--transition);
 }
 
+a{
+    color: var(--color-promary);
+    transition: var(--transition);
+}
+
 a:hover{
     color: var(--color-white);
 }
