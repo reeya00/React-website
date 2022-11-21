@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_rru9ccu', 'template_79s6a1m', form.current, 'VsIycHYjiw-amVYVA')
+    emailjs.sendForm('service_8dwtrko', 'template_79s6a1m', form.current, 'VsIycHYjiw-amVYVA')
   };
   return (
     <section id='contact'>
