@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import CV from '../../assets/CV_Of_Reeya.pdf'
 import PIC2 from '../../assets/pic2.jpeg'
 import {BsAward} from 'react-icons/bs'
 import {AiOutlineTrophy} from 'react-icons/ai'
@@ -55,7 +56,7 @@ const About = () => {
 people. I am well aware of the power of branding and its role in a successful enterprise. For this reason, I have polished my creative skills in graphics design by working in various communities. I aim to use my attention to detail and creative qualities in all of my future projects.
             </p>
 
-            <a href="https://bit.ly/reeyabaidya_portfolio" className='btn btn-primary'>View Portfolio</a>
+        <a href={CV}download className='btn btn-primary'>Download CV</a>
         </div>
       </div>
     </section>

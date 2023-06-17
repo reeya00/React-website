@@ -9,6 +9,7 @@ const Header = () => {
     <header>
       {/* container is the general class we made in css file and header-container is a class in container */}
       <div className="container header_container">
+        <br></br>
         <h5>Hello I am</h5>
         <h1>Reeya Baidya</h1>
         <h5 className='text-light'>Graphic Designer</h5>
