@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5500px;
+    /* height: 5500px; */
     background-color: var(--color-bg-variant);
     text-align: left;
     padding: 2.4rem 5rem;
