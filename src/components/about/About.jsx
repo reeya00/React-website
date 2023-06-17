@@ -28,29 +28,34 @@ const About = () => {
             <article className='about_card'>
               <BsAward className='about_icon'/>
               <h5>Experience</h5>
-              <small>2+ years of working</small>
+              <small>3+ years of working</small>
             </article>
 
             {/* achievement card */}
             <article className='about_card'>
               <AiOutlineTrophy className='about_icon'/>
               <h5>Achievements</h5>
-              <small>Awards & Scholarships</small>
+              <small>SFTF Huawei, </small>
+              <small>GHC Scholar, </small>
+              <small>Design Chief</small>
+
+
             </article>
 
             {/* projects card */}
             <article className='about_card'>
               <VscLibrary className='about_icon'/>
               <h5>Projects</h5>
-              <small>Prior work</small>
+              <small>Flutter, Node.js, C/C++</small>
             </article>
           </div>
           
           <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam dignissimos numquam, autem nemo a corrupti exercitationem laborum impedit velit facilis, nam ullam, accusantium facere alias inventore harum. Placeat, eius soluta!
+          I am a graphics and UI/UX designer interested in creating better visual experiences for
+people. I am well aware of the power of branding and its role in a successful enterprise. For this reason, I have polished my creative skills in graphics design by working in various communities. I aim to use my attention to detail and creative qualities in all of my future projects.
             </p>
 
-            <a href="#conact" className='btn btn-primary'>Let's Talk</a>
+            <a href="https://bit.ly/reeyabaidya_portfolio" className='btn btn-primary'>View Portfolio</a>
         </div>
       </div>
     </section>

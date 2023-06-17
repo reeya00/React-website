@@ -12,11 +12,13 @@
 
 /* css variables */
 :root{
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-promary-variant:rgba(77,181,255,0.4);
+    --color-bg: #192b3c;
+    --color-bg-variant: #212c5a;
+    --color-promary-variant:#64BABF;
     --color-promary: #4db5ff;
+    --color-promary2: #FEF63F;
     --color-white: #ffff;
+    --color-black: #000000;
     --color-light: rgba(255, 255, 255, 0.6);
 
     --container-width-lg: 75%;
@@ -39,7 +41,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* -----------------GENERAL STYLES---------------- */
@@ -67,7 +69,7 @@ section > h2, section >h5{
 }
 
 section>h2{
-    color: var(--color-promary);
+    color: var(--color-promary2);
     margin-bottom: 3rem;
 }
 
@@ -88,11 +90,11 @@ a:hover{
 .btn{
     width: max-content;
     display: inline-block;
-    color: var(--color-promary);
+    color: var(--color-promary2);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-promary);
+    border: 1px solid var(--color-promary2);
     transition: var(--transition);
 }
 
@@ -103,7 +105,7 @@ a:hover{
 }
 
 .btn-primary{
-    background: var(--color-promary);
+    background: var(--color-promary2);
     color: var(--color-bg);
 }
 

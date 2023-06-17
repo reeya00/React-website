@@ -1,7 +1,5 @@
-.portfolio_container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+/* .portfolio_container{
+
 }
 
 .portfolio_item{
@@ -30,7 +28,60 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
-}
+} */
+
+/* Styles for the carousel container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the carousel slides */
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5500px;
+    background-color: var(--color-bg-variant);
+    text-align: left;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  /* Styles for the slide content */
+  .slick-slide h3 {
+    font-size: 24px;
+    color: var(--transition);
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the dots navigation */
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .slick-dots li button {
+    font-size: 12px;
+    color: #888;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .slick-dots li.slick-active button {
+    color: #333;
+  }
+  
 
 /*----------------MEDIA QUERIES (MEDIUM-TABLETS)----------------*/
 
